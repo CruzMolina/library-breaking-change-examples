@@ -7,5 +7,5 @@ assert(constructorMethods);
 assert(bootstrap);
 assert(properties);
 } catch(error) {
-  console.error(`Uh oh, assertion failed! ${error}`)
+  console.error(`\u001b[31mUh oh, assertion failed! No export from @truffle/contract/lib/contract.js:\u001b[0m\n\n ${error}`)
 }
