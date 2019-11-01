@@ -1,0 +1,15 @@
+{
+  "name": "new-lib-example",
+  "version": "0.1.0",
+  "description": "example of new library's breaking changes",
+  "main": "test.js",
+  "scripts": {
+    "bootstrap": "npm ci",
+    "test": "node test.js && node otherTest.js"
+  },
+  "author": "Cruz Molina",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/contract": "file:contract-update-branch/packages/contract"
+  }
+}
