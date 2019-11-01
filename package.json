@@ -1,0 +1,11 @@
+{
+  "name": "library-breaking-change-examples",
+  "version": "0.1.0",
+  "description": "examples to show library breaking changes",
+  "scripts": {
+    "bootstrap": "cd currentLib && npm run bootstrap && cd ../newLib && npm run bootstrap",
+    "test": "cd currentLib && npm run test && cd ../newLib && npm run test"
+  },
+  "author": "Cruz Molina",
+  "license": "MIT"
+}
