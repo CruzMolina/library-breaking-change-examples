@@ -10,6 +10,6 @@
   "author": "Cruz Molina",
   "license": "MIT",
   "dependencies": {
-    "@truffle/contract": "file:contract-update-branch/packages/contract"
+    "@truffle/contract": "file:../truffle/packages/contract"
   }
 }
